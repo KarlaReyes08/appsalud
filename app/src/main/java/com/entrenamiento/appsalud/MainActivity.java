@@ -1,5 +1,8 @@
 package com.entrenamiento.appsalud;
+import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.widget.ImageView;
+
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -13,6 +16,8 @@ import com.entrenamiento.appsalud.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    //aqui es donde estoy llamando el binding
     ActivityMainBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
             }
             return true;
         });
+
         }
 
     private void replaceFragment(Fragment fragment)
@@ -42,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.frame_layout, fragment);
         fragmentTransaction.commit();
+
+    }
+
+    public void AbrirCamara (){
 
     }
 }

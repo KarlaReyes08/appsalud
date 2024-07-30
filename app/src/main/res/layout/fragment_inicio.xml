@@ -12,10 +12,23 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
         android:text="Toma una foto para darte indicaciones en caso de quemaduras"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="26sp" />
+
+    <ImageView
+        android:id="@+id/btnCamara"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:background="#A8A3A3"
+        android:clickable="false"
+        android:gravity="center"
+        android:onClick="abrirCamara"
+        android:src="@drawable/baseline_photo_camera_24" />
+
 
 </FrameLayout>
