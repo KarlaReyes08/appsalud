@@ -2,10 +2,20 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="orange">#FF512F</color>
+    <color name="orange">#ff8b61</color>
     <color name = "cafe">#FC5F40</color>
     <color name = "piel">#FED6C0</color>
     <color name = "yellow">#FF8008</color>
     <color name = "gray">#FF808080</color>"
+    <color name = "transparent">#00000000</color>"
+    <color name = "azul">#245575</color>
+    <color name = "claro">  #ffcc99</color>
+    <color name = "orange2">#ffa94d</color>
+    <color name = "orange3">#ff8b61</color>
+    <color name = "orange4">#f77752</color>
+    <color name = "orange5">#E07151</color>
+    <color name = "orange6">#FDDCD0</color>
+    <color name = "orange7">#DDFDDCD0</color>
+    <color name = "orange8">#D66C4D</color>
 
 </resources>
